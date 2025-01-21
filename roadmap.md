@@ -1,21 +1,18 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Algorithm and data structure roadmap</title>
-</head>
+
 <body>
+    <h1 align="center">Algorithm and data structure roadmap</h1>
+    <h3 align="center">Asymptotic analysis of algorithms</h3>
 
-Asymptotic analysis of algorithms
+<div>   <p>First of all, it is necessary to be understood to determine the complexity of the algorithm. Which algorithm will be faster in a particular situation. Get the complexity of the algorithms:</p></div>
 
-First of all, it is necessary to be understood to determine the complexity of the algorithm. Which algorithm will be
-faster in a particular situation. Get the complexity of the algorithms:
-
-Upper grade (Oh-larth);
-average assessment (theta);
-
-Low rating (Ω omega).
-
+<div>
+    <ul>
+        <li>Upper grade (Oh-larth);</li>
+        <li>average assessment (theta);</li>
+        <li>Low rating (Ω omega).</li>
+    </ul>
+</div>
 Basic Data Structures
 
 After that, we understand how we understand how each structure work, how it works. We note for ourselves as their pros
