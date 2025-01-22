@@ -1,179 +1,219 @@
 <html lang="en">
 
 <body>
-    <h1 align="center">Algorithm and data structure roadmap</h1>
-    <h3 align="center">Asymptotic analysis of algorithms</h3>
+<div>
+<h1 align="center">Algorithm and data structure roadmap</h1>
+<h3 align="center">Asymptotic analysis of algorithms</h3>
 
-<div>   <p>First of all, it is necessary to be understood to determine the complexity of the algorithm. Which algorithm will be faster in a particular situation. Get the complexity of the algorithms:</p></div>
+<p>Foremost, it is necessary to be understood to determine the complexity of the algorithms. Which algorithm will be faster in a particular situation. Get the complexity of the algorithms:</p>
+
+<ul>
+<li>Upper grade (Oh-larch);</li>
+<li>Average assessment (theta);</li>
+<li>Low rating (Ω omega).</li>
+</ul>
+</div>
 
 <div>
-    <ul>
-        <li>Upper grade (Oh-larth);</li>
-        <li>average assessment (theta);</li>
-        <li>Low rating (Ω omega).</li>
-    </ul>
+<h3 align="center">Basic Data Structures</h3>
+
+<p>After that, we understand how we understand how each structure work, how it works. We note for ourselves as their pros and cons, area of application.</p>
+
+<ul>
+<li>array</li>
+<li>linked list</li>
+<li>doubly linked list</li>
+<li>trees</li>
+<li>hash table</li>
+<li>binary heap</li>
+<li>queue</li>
+<li>stack</li>
+<li>two-way queue</li>
+<li>graph</li>
+</ul>
 </div>
-Basic Data Structures
 
-After that, we understand how we understand how each structure work, how it works. We note for ourselves as their pros
-and cons, area of application.
+<div>
+<h3 align="center">Applying algorithms and data structures in practice</h3>
+<h4>Binary search</h4>
 
-Array
-Connected List
-Double-linked list
-Trees
-the Hash Table
-Binary bug
-Turn
-Stack
-Bilateral Story
-Count
+<ul>
+<li>First bad version</li>
+<li>Valid perfect square</li>
+<li>Search insert position</li>
+<li>Sqrt(x)</li>
+<li>Search in rotated sorted array</li>
+<li>Peak index in mountain array</li>
+<li>Find first and last position in sorted array</li>
+<li>Search a 2D matrix</li>
+<li>Search a 2D matrix 2</li>
+</ul>
+</div>
 
-We apply algorithms and data structures in practice
-Binary Search
+<div>
+<h4>Two pointers</h4>
+<ul>
+<li>Remove duplicates from sorted array</li>
+<li>Merge sorted array</li>
+<li>Intersection of two arrays 2</li>
+<li>Two sum 2</li>
+<li>3 sum</li>
+<li>4 sum</li>
+<li>Sort colors</li>
+<li>Move zeroes</li>
+<li>Partition labels</li>
+</ul>
+</div>
 
-First bad version
-Valid perfect square
-Search insert position
-Sqrt(x)
-Search in rotated sorted array
-Peak index in mountain array
-Find first and last position in sorted array
-Search a 2D matrix
-Search a 2D matrix 2
+<div>
+<h4>Lines</h4>
+<ul>
+<li>Roman to integer</li>
+<li>Integer to Roman</li>
+<li>Valid palindrome</li>
+<li>Valid anagram</li>
+<li>Reverse string</li>
+<li>Zigzag conversion</li>
+<li>Length of last word</li>
+</ul>
+</div>
 
-Two Pointers
+<div>
+<h4>Linked lists</h4>
+<ul>
+<li>Middle of the linked list</li>
+<li>Linked list cycle</li>
+<li>Remove duplicates from sorted list</li>
+<li>Reverse linked list</li>
+<li>Palindrome linked list</li>
+<li>Merge two sorted lists</li>
+<li>Merge to sorted lists</li>
+<li>Delete node in linked list</li>
+<li>Add two numbers</li>
+<li>Sort list</li>
+</ul>
+</div>
 
-Remove duplicates from sorted array
-Merge sorted array
-Intersection of two arrays 2
-Two sum 2
-3 sum
-4 sum
-Sort colors
-Move zeroes
-Partition labels
+<div>
+<h4>Trees</h4>
+<ul>
+<li>Binary tree inorder traversal</li>
+<li>Binary tree preorder traversal</li>
+<li>Binary tree postorder traversal</li>
+<li>Binary tree level order traversal</li>
+<li>Maximum depth of binary tree</li>
+<li>Minimum depth of binary tree</li>
+<li>Path sum</li>
+<li>Symmetrical tree</li>
+<li>Same tree</li>
+<li>Binary tree paths</li>
+<li>Validate binary search tree</li>
+<li>Lowest common ancestor of binary tree</li>
+<li>Binary tree right side view</li>
+</ul>
+</div>
 
-Strings
+<div>
+<h4>Hash tables</h4>
+<ul>
+<li>Intersection of two arrays</li>
+<li>Two sum</li>
+<li>Isomorphic strings</li>
+<li>Word pattern</li>
+<li>Valid Sudoku</li>
+<li>Group anagrams</li>
+<li>LRU cache</li>
+<li>Top k frequent elements</li>
+</ul>
+</div>
 
-Roman to integer
-Integer to Roman
-Valid palindrome
-Valid anagram
-Reverse string
-Zigzag conversion
-Length of last word
+<div>
+<h4>Matrices</h4>
+<ul>
+<li>Matrix diagonal sum</li>
+<li>Valid Sudoku</li>
+<li>01 Matrix</li>
+<li>Maximal square</li>
+<li>Set matrix zeroes</li>
+<li>Spiral matrix</li>
+<li>Rotate image</li>
+</ul>
+</div>
 
-Connected lists
+<div>
+<h4>Queue and stack</h4>
+<ul>
+<li>Valid parentheses</li>
+<li>Min stack</li>
+<li>Daily temperatures</li>
+<li>Implement queue using stacks</li>
+<li>Implement stack using queues</li>
+<li>Minimum remove to make valid parentheses</li>
+</ul>
+</div>
 
-Middle of the Link List
-Linked list cycle
-Remove duplicates from sorted list
-Reverse Re-Serve Link List
-Palindrome Linklist
-Merge two sorted lists
-Merge to sorted lists
-Delete node in linked list
-Add two numbers
-Sort list
+<div>
+<h4>Bit manipulation</h4>
+<lu>
+<li>Power of two</li>
+<li>Power of four</li>
+<li>Counting bits</li>
+<li>Reverse bits</li>
+<li>Hamming distance</li>
+<li>Total hamming distance</li>
+</lu>
+</div>
 
-Trees
+<div>
+<h4>Sliding windows</h4>
+<lu>
+<li>Longest substring without repeating characters</li>
+<li>Longest repeating character replacement</li>
+<li>Fruit in baskets</li>
+<li>Find all anagrams in string</li>
+<li>Sliding window maximum</li>
+</lu>
+</div>
 
-Binary tree inorder traversal
-Binary tree preorder traversal
-Binary tree postorder traversal
-Binary tree level oversale
-Maximum depth of binary tree
-Minimum depth of binary tree
-Path sum
-Symmetrical tree
-Same tree
-Binary tree paths
-Validate binary search tree
-Lowest common ancestor of binary tree
-Binary tree view right side
+<div>
+<h4>Backtracking search</h4>
+<lu>
+<li>Permutations</li>
+<li>Combination sum</li>
+<li>Subsets</li>
+<li>Generate parentheses</li>
+<li>Remove invalid parentheses</li>
+<li>N-queens</li>
+<li>N-queens 2</li>
+</lu>
+</div>
 
-Hash Tables
-
-Intersection of two arrays
-Two sum
-Isomorphic strings
-Word pattern
-Valid Sudoku
-Group anagrams
-LRU cache
-Top k elements
-
-Matrits
-
-Matrix Diagonal sum
-Valid Sudoku
-01 Matrix
-Maximal Square
-Set matrix zeroes
-Spiral matrix
-Rotate image
-
-The Vedo and the Glass
-
-Valid parentheses
-Min stack
-The Daily
-Implement queue using stacks
-Implement stack using queues
-Minimum remove to make valid parentheses
-
-Bite manipulation
-
-Power of two
-Power of Four
-Counting bits
-Reverse bits
-Hamming Dis.
-Total Hamming Distance
-
-Slide windows
-
-Longest substring without re-eringer characters
-Longest re-re-re-re-re-re-re-re-
-Fruit in the basket
-Find all anagrams in string
-Sliding window maximum
-
-Search with return
-
-Permutations
-Combination sum
-Subsets
-Generate parentheses
-Remove invalid parentheses
-N-queens
-N-queens 2
-
-Additional Algorithms and Data Structures
-
-DFS / BFS
-Prefixed tree
-Suffix tree
-Quad Tree
-Tree segment of
-System of non-intersection sets
-Li Algorithms/Deyxtri/Floyd-Worchell
-Topological sorting
-Kadane Algorithm
-The Knut-Morris-Prata Algorithm
-Dynamic programming
-Quick Select
-The Merla Tre
-Persistent data structures
-Bloom Filter
-Bite map
-B/B+Tree
-LSM Tree
-Ring Buffer
-Fibonacci
-Greedy Algorithms
-
+<div>
+<h3 align="center">Additional algorithms and data structures</h3>
+<lu>
+<li>DFS/BFS</li>
+<li>Prefix tree</li>
+<li>Suffix tree</li>
+<li>Quad tree</li>
+<li>Tree of segments</li>
+<li>System of disjoint sets</li>
+<li>Lee/Dijkstra/Floyd-Warshall algorithms</li>
+<li>Topological sorting</li>
+<li>Kadane's algorithm</li>
+<li>Knuth-Morris-Pratt algorithm</li>
+<li>Dynamic programming</li>
+<li>Quick select</li>
+<li>Merkle tree</li>
+<li>Persistent data structures</li>
+<li>Bloom filter</li>
+<li>Bitmap</li>
+<li>B/B+ tree</li>
+<li>LSM tree</li>
+<li>Ring buffer</li>
+<li>Fibonacci heap</li>
+<li>Greedy algorithms</li>
+</lu>
+</div>
 
 </body>
 </html>
