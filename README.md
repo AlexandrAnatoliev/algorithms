@@ -6,14 +6,7 @@
 <h1 align="center">Algorithm and data structure roadmap</h1>
 <h3 align="center">Asymptotic analysis of algorithms</h3>
 
-<p>Foremost, it is necessary to be understood to determine the complexity of the algorithms. Which algorithm will be faster in a particular situation. Get the complexity of the algorithms:</p>
-<form>
-<select name="test">
-<option value="one">one opt</option>
-<option value="two">two opt</option>
-<option value="three">three opt</option>
-</select>
-</form>
+<p><i>Foremost, it is necessary to be understood to determine the complexity of the algorithms. Which algorithm will be faster in a particular situation. Get the complexity of the algorithms:</i></p>
 <ul>
 <li>Upper grade (Oh-larch);</li>
 <li>Average assessment (theta);</li>
