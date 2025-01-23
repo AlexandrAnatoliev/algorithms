@@ -17,7 +17,7 @@
 <div>
 <h3 align="center">Basic Data Structures</h3>
 
-<p style="color:red"><i>After that, we understand how we understand how each structure work, how it works. We note for ourselves as their pros and cons, area of application.</i></p>
+<p><i>After that, we understand how we understand how each structure work, how it works. We note for ourselves as their pros and cons, area of application.</i></p>
 
 <ul>
 <li>Array</li>
