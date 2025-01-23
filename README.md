@@ -1,13 +1,5 @@
 <html lang="en">
 <head>
-<style type="text/css">
-ul {
-font-family: arial;
-background-color: red;)
-color: #665544;
-h3 {
-color: rgb(255,255,255);}
-</style>
 </head>
 <body>
 <div>
@@ -15,7 +7,13 @@ color: rgb(255,255,255);}
 <h3 align="center">Asymptotic analysis of algorithms</h3>
 
 <p>Foremost, it is necessary to be understood to determine the complexity of the algorithms. Which algorithm will be faster in a particular situation. Get the complexity of the algorithms:</p>
-
+<form>
+<select name="test">
+<option value="one">one opt</option>
+<option value="two">two opt</option>
+<option value="three">three opt</option>
+</select>
+</form>
 <ul>
 <li>Upper grade (Oh-larch);</li>
 <li>Average assessment (theta);</li>
