@@ -1,7 +1,7 @@
 /**
  * leetCode: First Bad Version
  *
- * @version 0.1.1
+ * @version 0.1.2
  * @autor AlexandrAnatoliev
  */
 
@@ -14,26 +14,13 @@ public class Solution extends VersionControl {
         super(bad);
     }
 
-    /*
-        public int firstBadVersion(int n){
-            for(int i = 1; i <= n; i++)
-            {
-                if(isBadVersion(i))
-                {
-                    return i;
-                }
-            }
-
-            return n;
-        }
-    */
     public int firstBadVersion(int n) {
         {
             int start = 1;
             int finish = n;
             int middle;
 
-            while (start + 1< finish) {
+            while (start + 1 < finish) {
                 middle = start + (finish - start) / 2;
                 if (isBadVersion(middle)) {
                     finish = middle;
@@ -41,10 +28,10 @@ public class Solution extends VersionControl {
                     start = middle;
                 }
             }
-            if (isBadVersion(finish)) {
-                return finish;
+            if (isBadVersion(start)) {
+                return start;
             }
-            return start;
+            return finish;
         }
 
 
