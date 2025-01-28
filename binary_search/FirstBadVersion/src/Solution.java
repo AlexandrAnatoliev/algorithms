@@ -1,7 +1,7 @@
 /**
  * leetCode: First Bad Version
  *
- * @version 0.1.0
+ * @version 0.1.1
  * @autor AlexandrAnatoliev
  */
 
@@ -30,7 +30,9 @@ public class Solution extends VersionControl{
 	public static void main(String[] args)
 	{
 		Solution solution = new Solution(4);
-		System.out.println(solution.firstBadVersion(6));
+		System.out.println(solution.firstBadVersion(5));
+		solution = new Solution(1);
+		System.out.println(solution.firstBadVersion(1));
 	}
 
 }
