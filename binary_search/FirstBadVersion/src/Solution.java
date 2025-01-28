@@ -8,45 +8,55 @@
 // The API isBadVersion is defined in parent class VersionControl
 // boolean isBadVersion(int version);
 
-public class Solution extends VersionControl{
+public class Solution extends VersionControl {
 
-	public Solution(int bad)
-	{
-		super(bad);
-	}
+    public Solution(int bad) {
+        super(bad);
+    }
 
-	public int firstBadVersion(int n){
-		for(int i = 1; i <= n; i++)
-		{
-			if(isBadVersion(i))
-			{
-				return i;
-			}
-		}
+    /*
+        public int firstBadVersion(int n){
+            for(int i = 1; i <= n; i++)
+            {
+                if(isBadVersion(i))
+                {
+                    return i;
+                }
+            }
 
-		return n;
-	}
+            return n;
+        }
+    */
+    public int firstBadVersion(int n) {
+        {
+            int start = 1;
+            int finish = n;
+            int middle;
 
-	public static void main(String[] args)
-	{
-		Solution solution = new Solution(4);
-		System.out.println(solution.firstBadVersion(5));
-		solution = new Solution(1);
-		System.out.println(solution.firstBadVersion(1));
-	}
+            while (start + 1< finish) {
+                middle = start + (finish - start) / 2;
+                if (isBadVersion(middle)) {
+                    finish = middle;
+                } else {
+                    start = middle;
+                }
+            }
+            if (isBadVersion(finish)) {
+                return finish;
+            }
+            return start;
+        }
 
-}
 
-public class VersionControl{
-	public int bad;
+    }
 
-	public VersionControl(int bad){
-		this.bad = bad;
-	}
+    public static void main(String[] args) {
+        Solution solution = new Solution(4);
+        System.out.println(solution.firstBadVersion(5));
+        solution = new Solution(1);
+        System.out.println(solution.firstBadVersion(1));
+    }
 
-	public boolean isBadVersion(int n){
-		return n >= bad;
-	}
 }
 
 
